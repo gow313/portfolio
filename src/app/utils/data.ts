@@ -2,7 +2,8 @@ export const navigationLinks = [
   { label: 'Home', path: '#home' },
   { label: 'About', path: '#about' },
   { label: 'Projects', path: '#projects' },
-  { label: 'Techstack', path: '#skills' },
+  { label: 'FrameWork', path: '#skills' },
+  { label: 'Programming Languages', path: '#Programming Languages' },
   { label: 'Contact', path: '#contact' }
 ]
 

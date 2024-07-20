@@ -12,9 +12,7 @@ export const Contact = () => {
         viewport={{ once: true }}
         className="flex flex-col items-center gap-6"
       >
-        <p className="max-w-2xl text-center text-lg">
-          Through Our Email
-        </p>
+       
         <MotionDiv
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}

@@ -16,7 +16,7 @@ export const Hero = () => {
             }}
             className="text-center text-8xl font-bold md:text-7xl sm:text-5xl"
           >
-            Solvify<span className="text-target">.</span>
+            Gowtham<span className="text-target">.R</span>
           </MotionH1>
           <MotionP
             initial={{ opacity: 0, x: -40 }}
@@ -28,8 +28,8 @@ export const Hero = () => {
             }}
             className="text-center text-4xl sm:text-3xl"
           >
-            Creates{' '}
-            <span className="font-bold text-target">Bright Future</span>
+            Mobile Application{' '}
+            <span className="font-bold text-target">Developer</span>
           </MotionP>
           <MotionDiv
             initial={{ opacity: 0, y: 40 }}

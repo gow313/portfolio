@@ -4,7 +4,7 @@ export const Logo = () => {
   return (
     <Link href={'/'}>
       <p className=" text-3xl font-bold">
-        SO
+        Gow
         <span className="text-target">.</span>
       </p>
     </Link>

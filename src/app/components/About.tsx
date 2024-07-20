@@ -7,7 +7,7 @@ import { MoveRight } from 'lucide-react'
 
 export const About = () => {
   return (
-    <SectionContainer id="about" title="About Us">
+    <SectionContainer id="about" title="About Me">
       <div className="flex items-center justify-between md:justify-center">
         <MotionDiv
           initial={{ opacity: 0, x: -24 }}
@@ -17,18 +17,19 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Ready to take your idea to Product
+          Seeking a challenging role to utilize my academic and soft skills for career advancement. Passionate about app
+development, I bring strong programming skills to drive innovation. Eager to contribute handsomely to the
+organization.
           </p>
 
-          <p>
-            Reach out us today
-          </p>
+         
+
           <MotionDiv className="flex justify-start md:justify-center">
             <Link
               href="#contact"
               className="flex items-center gap-x-2 text-target transition-all hover:gap-x-3 hover:text-[#3385ff]"
             >
-              Contact us <MoveRight />
+              Contact <MoveRight />
             </Link>
           </MotionDiv>
         </MotionDiv>

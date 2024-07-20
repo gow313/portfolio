@@ -6,6 +6,7 @@ import { Hero } from './components/Hero'
 import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 import { SocialLinks } from './components/SocialLinks'
+import { Programming } from './components/Programming'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Projects />
         <Skills />
+        <Programming />
         <Contact />
         <SocialLinks />
       </main>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { MotionDiv } from '../lib/motion'
-import { skillsData } from '../utils/data'
+import { programmingData } from '../utils/data'
 import { SectionContainer } from './SectionContainer'
 
 const container = {
@@ -24,9 +24,9 @@ const item = {
   }
 }
 
-export const Skills = () => {
+export const Programming = () => {
   return (
-    <SectionContainer id="skills" title="FrameWork">
+    <SectionContainer id="skills" title="Programming Languages">
       <MotionDiv
         variants={container}
         initial="hidden"
@@ -34,7 +34,7 @@ export const Skills = () => {
         viewport={{ once: true }}
         className="flex flex-wrap justify-center gap-8"
       >
-        {skillsData.map((skill, index) => (
+        {programmingData.map((program, index) => (
           <MotionDiv
             variants={item}
             transition={{ duration: 0.3 }}
@@ -42,13 +42,13 @@ export const Skills = () => {
             className="flex items-center gap-3 rounded-lg bg-secondary px-4 py-2 font-bold"
           >
             <Image
-              src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill.img}`}
-              alt={skill.name}
+              src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${program.img}`}
+              alt={program.name}
               width={40}
               height={40}
               className="sm:h-8 sm:w-8"
             />
-            {skill.name}
+            {program.name}
           </MotionDiv>
         ))}
       </MotionDiv>

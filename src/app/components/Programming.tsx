@@ -26,7 +26,7 @@ const item = {
 
 export const Programming = () => {
   return (
-    <SectionContainer id="skills" title="Programming Languages">
+    <SectionContainer id="program" title="Programming Languages">
       <MotionDiv
         variants={container}
         initial="hidden"

@@ -3,14 +3,13 @@ export const navigationLinks = [
   { label: 'About', path: '#about' },
   { label: 'Projects', path: '#projects' },
   { label: 'FrameWork', path: '#skills' },
-  { label: 'Programming Languages', path: '#Programming Languages' },
+  { label: 'ProgrammingLanguages', path: '#program' },
   { label: 'Contact', path: '#contact' }
 ]
 
 export type projectType = {
   name: string
   repo: string
-
   image: string
   description: string
   tags: string[]

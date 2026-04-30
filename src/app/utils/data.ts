@@ -42,6 +42,13 @@ export const projectsData: projectType[] = [
     description:
      'Trotters is a football score app I developed for my football team. It lets our college students view scores for inter-department matches using Flutter',
     tags: ['Flutter', 'Dart','MongoDb']
+  }, {
+    name: 'DigiGold',
+    repo: '',
+    image:
+      '/gold.png',
+    description:'DigiGold is a website developed by our team, Digi, using Angular for the frontend and Spring Boot forthe backend. It allows users to buy gold in both physical form and virtual gold. Users can also sell their gold and view their transaction history. The platform is designed to make gold buying and selling simple and convenient.'
+,    tags: ['Java', 'SpringBoot','Mysql','Angular']
   },
 ]
 
@@ -51,8 +58,21 @@ export const skillsData = [
     img: 'flutter/flutter-original.svg',
     name: 'Flutter'
   },
+  {
+  img: 'angular/angular-original.svg',
+  name: 'Angular'
+},
+  {
+  img: 'spring/spring-original.svg',
+  name: 'Spring Boot'
+}
 ]
 export const programmingData = [
+  {
+    img: 'java/java-original.svg',
+    name: 'Java'
+  },
+
   {
     img: 'html5/html5-original.svg',
     name: 'HTML'
@@ -60,7 +80,10 @@ export const programmingData = [
   {
     img: 'css3/css3-original.svg',
     name: 'CSS'
-  },
+  },{
+  img: 'javascript/javascript-original.svg',
+  name: 'JavaScript'
+},
 
  {
     img: 'dart/dart-original.svg',
@@ -68,10 +91,6 @@ export const programmingData = [
   }, {
     img: 'c/c-original.svg',
     name: 'C'
-  },
-  {
-    img: 'java/java-original.svg',
-    name: 'Java'
   },
   
 ]

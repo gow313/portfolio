@@ -28,8 +28,8 @@ export const Hero = () => {
             }}
             className="text-center text-4xl sm:text-3xl"
           >
-            Mobile Application{' '}
-            <span className="font-bold text-target">Developer</span>
+            Software {' '}
+            <span className="font-bold text-target">Engineer</span>
           </MotionP>
           <MotionDiv
             initial={{ opacity: 0, y: 40 }}

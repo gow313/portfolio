@@ -17,7 +17,7 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-          Seeking a challenging role to utilize my academic and soft skills for career advancement. Passionate about app
+          Seeking a challenging role to utilize my academic and soft skills for career advancement. Passionate about Software
 development, I bring strong programming skills to drive innovation. Eager to contribute handsomely to the
 organization.
           </p>
